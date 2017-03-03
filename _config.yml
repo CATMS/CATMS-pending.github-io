@@ -80,8 +80,7 @@ encoding: utf-8 # Make sure the encoding is right
 title: "CATMS" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/images/CATMSlogo.png" # Site logo, also used in jekyll-seo-tag
 description: "Research at the Center for Advanced Theory and Molecular Simulation aims at advancing the frontiers of theoretical chemistry through the development of new theoretical approaches and novel simulation tools, which are applied to a wide range of problems. A variety of theoretical and computational approaches are used, including electronic structure methods, classical and quantum dynamics, statistical mechanical descriptions and control theory. Current studies focus on intramolecular energy flow, photochemical processes, dynamics of quantum liquids, coherent control, spin glasses and protein folding. The research has a strong interdisciplinary character. Faculty of the theory group hold joint appointments and/or maintain frequent interactions with the Department of Physics, the Department of Materials Science and Engineering, the Center for Biophysics and Computational Biology, and the Beckman Institute for Advanced Science and Technology." # Site description and default description, also used in jekyll-seo-tag
-#url: "https://catms.github.io/CATMS-pending.github.io" # Site url, also used in jekyll-seo-tag
-#url: "localhost:3000/"
+url: "https://catms.github.io/CATMS-pending.github.io" # Site url, also used in jekyll-seo-tag
 repo: "https://github.com/CATMS/CATMS.github.io"
 email:
 disqus:
