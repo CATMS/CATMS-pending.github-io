@@ -34,33 +34,29 @@ paginate: 2 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
 jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
 twitter:
-  username: DavidDarnes # jekyll-seo-tag > Owners twitter username
-author: DavidDarnes # jekyll-seo-tag > default author
+  username:  # jekyll-seo-tag > Owners twitter username
+author: CATMS # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
-  name: David Darnes # jekyll-seo-tag > real name
+  name:  # jekyll-seo-tag > real name
   links:  # jekyll-seo-tag > social aliases (sameAs)
-    - https://twitter.com/DavidDarnes
-    - https://www.facebook.com/daviddarnes
-    - https://www.linkedin.com/in/daviddarnes
-    - https://plus.google.com/+DavidDarnes
-    - https://github.com/daviddarnes
+
 
 # 4. Jekyll settings
 sass:
   style: compressed # Style compression
 permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
-timezone: Europe/London # Timezone for blog posts and alike
+timezone: USA/Chicago # Timezone for blog posts and alike
 
 # 5. Collections
 collections:
   posts:
     title: Posts # Needed for Siteleaf
     output: true
-    description: "My thoughts and ideas" # The post list page content
+    description:  # The post list page content
     feature_text: |
-      Welcome to the blog
-    feature_image: "https://unsplash.it/1300/400?image=1067"
+
+    feature_image: "/assets/images/placeholder.png"
 
 # 6. Jekyll collections settings
 defaults:
@@ -70,53 +66,51 @@ defaults:
       type: pages
     values:
       layout: page # Default layout
-      image: "/assets/placeholder-social.png" # Default image for sharing
+      image: "/assets/images/blue_waters.jpg" # Default image for sharing
   -
     scope:
       path: ""
       type: posts
     values:
       layout: post # Default layout
-      image: "/assets/placeholder-social.png" # Default image for sharing
+      image: "/assets/images/blue_waters.jpg" # Default image for sharing
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
-title: "Alembic" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/placeholder-logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
-url: "https://alembic.darn.es" # Site url, also used in jekyll-seo-tag
-repo: "https://github.com/daviddarnes/alembic"
-email: "me@daviddarnes.com"
-disqus: "alembic-1"
-avatarurl: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
+title: "CATMS" # Site name or title, also used in jekyll-seo-tag
+logo: "/assets/images/CATMSlogo.png" # Site logo, also used in jekyll-seo-tag
+description: "Research at the Center for Advanced Theory and Molecular Simulation aims at advancing the frontiers of theoretical chemistry through the development of new theoretical approaches and novel simulation tools, which are applied to a wide range of problems. A variety of theoretical and computational approaches are used, including electronic structure methods, classical and quantum dynamics, statistical mechanical descriptions and control theory. Current studies focus on intramolecular energy flow, photochemical processes, dynamics of quantum liquids, coherent control, spin glasses and protein folding. The research has a strong interdisciplinary character. Faculty of the theory group hold joint appointments and/or maintain frequent interactions with the Department of Physics, the Department of Materials Science and Engineering, the Center for Biophysics and Computational Biology, and the Beckman Institute for Advanced Science and Technology." # Site description and default description, also used in jekyll-seo-tag
+url: "https://catms.github.io/CATMS-pending.github.io" # Site url, also used in jekyll-seo-tag
+repo: "https://github.com/CATMS/CATMS.github.io"
+email:
+disqus:
+avatarurl:
 
 # 8. Site navigation
 navigation_header:
   Home: /
-  Elements: /elements/
-  Blog: /blog/
-  Categories: /categories/
+  Posts: /blog/
+  About: /About/
   Search: /search/
-  Fork Alembic: https://github.com/daviddarnes/alembic
 
 navigation_footer:
-  Created by David Darnes: https://darn.es
+  University of Illinois at Urbana-Champaign CATMS: http://www.chemistry.illinois.edu/about/facilities/catms/
 
 social_links:
-  Twitter: https://twitter.com/DavidDarnes
-  LinkedIn: https://www.linkedin.com/in/daviddarnes
-  Google+: https://plus.google.com/+DavidDarnes
-  GitHub: https://github.com/daviddarnes
-  link: https://darn.es
+  #Twitter:
+  LinkedIn: https://www.linkedin.com/groups/8566715
+  #Google+:
+  GitHub: https://github.com/CATMS/
+  #link:
 
 sharing_links:
-  Twitter: "#1DA1F2"
-  facebook: "#3B5998"
-  Google+: "#DC4E41"
-  Pinterest: "#BD081C"
-  LinkedIn: "#0077B5"
-  tumblr: "#36465D"
-  Reddit: "#FF4500"
-  Hacker News: "#ff6600"
-  Designer News: "#2D72D9"
-  Email: ""
+  #Twitter: "#1DA1F2"
+  #facebook: "#3B5998"
+  #Google+: "#DC4E41"
+  #Pinterest: "#BD081C"
+  #LinkedIn: "#0077B5"
+  #tumblr: "#36465D"
+  #Reddit: "#FF4500"
+  #Hacker News: "#ff6600"
+  #Designer News: "#2D72D9"
+  #Email: ""
